@@ -1,6 +1,6 @@
-## Clothes-Flipper-Robot
+# Clothes-Flipper-Robot
 
-#ณปพน วงค์คม 650610834
+ณปพน วงค์คม 650610834
 
 code สำหรับจำลองหุ่นยนต์พับผ้า ที่มี 6 degree of freedom
 ทุกไฟล์จะอยู่ใน src/articubot_one/
