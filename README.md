@@ -6,8 +6,7 @@ code สำหรับจำลองหุ่นยนต์พับผ้า
 ทุกไฟล์จะอยู่ใน src/articubot_one/
 - config:
     - controllers.yaml ใช้สำหรับกำหนด parameter สำหรับ publish ไปยัง topic ของ ros2 ใน repo นี้ topic ที่ใช้ตือ arm_controller parameter ของ joint: arm_1_joint,arm_2_joint,arm_3_joint,arm_4_joint,arm_5_joint,grip_1_joint,grip_2_joint คือ position
-- description:
-    จะรวมไฟล์ที่สำคัญทุกอย่างไว้ เช่น
+- description: จะรวมไฟล์ที่สำคัญทุกอย่างไว้ เช่น
       - model.dae 
       - robot_core.xacro ที่เป็นแกนหลักของการจำลองหุ่น ใช้ปรับ joint,model และ inertial ของหุ่นยนต์
       - file_transmission.xacro ที่่ทำให้สามารถควบคุม joint ด้วย plugin gazebo_ros2_control ได้
